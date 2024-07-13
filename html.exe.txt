@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvis Eloy Zabala Padilla - Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .bio, .projects, .skills, .contact {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elvis Eloy Zabala Padilla</h1>
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="bio" class="bio">
+        <h2>Biografía</h2>
+        <p>Hola, soy Elvis Eloy Zabala Padilla, un Project Manager con experiencia en la gestión estratégica de redes sociales y en la creación de contenido para músicos, artistas, y streamers. Tengo formación en Ensign College y BYU Pathway, y actualmente resido en Venezuela. Me apasiona combinar tecnología y creatividad para ofrecer soluciones innovadoras en el ámbito digital.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Gestión de contenido para streamer argentina especializada en transmisiones en vivo de baile y canto.</li>
+            <li>Desarrollo de una estrategia de proveedores y negociación sobre zapatos Nike para la asignación de DSCO.</li>
+            <li>Proyecto de negocio que combina camisetas físicas de fútbol con NFTs únicos asociados a jugadores específicos.</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Gestión estratégica de redes sociales</li>
+            <li>Colaboración interdepartamental</li>
+            <li>Campañas creativas</li>
+            <li>Análisis de rendimiento y optimización de estrategias</li>
+            <li>Desarrollo de contenido digital y NFT</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en las siguientes redes sociales:</p>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@LothKiwel/videos" target="_blank">YouTube</a>
+            <a href="https://t.me/RoyalPVP8" target="_blank">Telegram</a>
+            <a href="https://www.instagram.com/royalpvp8" target="_blank">Instagram</a>
+            <a href="https://x.com/Pvp8Royal" target="_blank">Twitter</a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Elvis Eloy Zabala Padilla. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
